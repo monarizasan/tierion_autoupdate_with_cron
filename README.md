@@ -8,7 +8,9 @@
 
 または、新たにauto_update.shというスクリプトを作って保存します。
 
-使用前にauto_update.sh内の[username]は自身の使用しているユーザー名に置き換えてください。
+使用前にauto_update.sh内の[username]は自身の使用しているユーザー名に置き換えてください。  
+
+また、12行目のchainpoint-nodeディレクトリへcdで移動する部分を自身の状況に合わせて適宜ご変更ください。
 
 auto_update.shをauto_updateディレクトリに作成または保存したら、以下のコマンドでオーナーと実行権限を変更します。
 
