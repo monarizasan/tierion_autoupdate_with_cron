@@ -15,6 +15,7 @@
 auto_update.shをauto_updateディレクトリに作成または保存したら、以下のコマンドでオーナーと実行権限を変更します。
 
 sudo chmod 700 /home/[username]/auto_update/auto_update.sh 
+
 sudo chown root:root /home/[username]/auto_update/auto_update.sh 
 
 
@@ -26,6 +27,7 @@ sudo crontab -u root -e
 下記の設定では、1日2回、0時と12時に更新があったかを確認して、更新があった場合はauto_update.shが実行されてmake upgradeをかけます。
 
 0 0 * * * /bin/bash /home/[username]/auto_update/auto_update.sh
+
 0 12 * * * /bin/bash /home/[username]/auto_update/auto_update.sh
 
 
