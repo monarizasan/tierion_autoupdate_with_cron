@@ -37,3 +37,6 @@ else
   make upgrade
   echo `date` "Update was done" >> /home/[username]/auto_update/auto_update.log
 fi
+
+###このスクリプトをダウンロードしてサーバに保存してください。
+###cronの設定などを含めた詳しい説明はこちら https://github.com/monarizasan/tierion_autoupdate_with_cron
