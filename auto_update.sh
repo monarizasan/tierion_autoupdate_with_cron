@@ -1,5 +1,8 @@
 #!/bin/bash
 
+###このスクリプトをダウンロードしてサーバに保存してください。
+###cronの設定などを含めた詳しい説明はこちら https://github.com/monarizasan/tierion_autoupdate_with_cron
+
 #空のdiff.txtを作成。
 
 : > /home/[username]/auto_update/diff.txt
