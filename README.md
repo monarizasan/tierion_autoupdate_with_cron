@@ -9,7 +9,7 @@ Ubuntu 16.04 で動作確認済。
 1. 使用前にauto_updateという名前のディレクトリをサーバのユーザーディレクトリ直下に作ります。  
   
   
-2. ダウンロードしたauto_update.shを、今作成したauto_updateディレクトリに保存します。または、新たにauto_update.shというスクリプトを作って保存します。  
+2. ダウンロードしたauto_update.shを、今作成したauto_updateディレクトリに保存します。または、新たにauto_update.shというスクリプトをコピペで作って保存します。  
   
   
 3. 使用前にauto_update.sh内の[username]は自身の使用しているユーザー名に置き換えてください。  
