@@ -26,12 +26,12 @@ Ubuntu 16.04 で動作確認済。
     sudo chown root:root /home/[username]/auto_update/auto_update.sh
   
 
-#### 6. 次に、下記のコマンドでcrontabを開きます。初めてだとどのエディタを使うか聞かれるので、好きなものを選びます。  
+6. 次に、下記のコマンドでcrontabを開きます。初めてだとどのエディタを使うか聞かれるので、好きなものを選びます。  
   
 
     sudo crontab -u root -e
 
-#### 7. 最後に下記を、開いたcrontabファイルの最下段に追記します。下記の設定では、1日2回、0時と12時に更新があったかを確認して、更新があった場合はauto_update.shが実行されてmake upgradeをかけます。  
+7. 最後に下記を、開いたcrontabファイルの最下段に追記します。下記の設定では、1日2回、0時と12時に更新があったかを確認して、更新があった場合はauto_update.shが実行されてmake upgradeをかけます。  
   
 
     0 0 * * * /bin/bash /home/[username]/auto_update/auto_update.sh
