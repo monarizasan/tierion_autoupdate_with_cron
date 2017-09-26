@@ -6,7 +6,7 @@ Ubuntu 16.04 で動作確認済。
 
 ## 設定方法
   
-1. 使用前にauto_updateという名前のディレクトリをサーバのユーザーディレクトリ直下に作ります。
+###1. 使用前にauto_updateという名前のディレクトリをサーバのユーザーディレクトリ直下に作ります。
   
 2. ダウンロードしたauto_update.shを、今作成したauto_updateディレクトリに保存します。または、新たにauto_update.shというスクリプトを作って保存します。
   
@@ -36,7 +36,7 @@ Ubuntu 16.04 で動作確認済。
 
    更新を行ったかどうかは/home/[username]/auto_update/auto_update.logに書き込まれます。
 
-    less /home/[username]/auto_update/auto_update.log
+    `less /home/[username]/auto_update/auto_update.log`
 
    上記コマンドなどで更新されたか否かをご確認ください。
 
